@@ -1,0 +1,1 @@
+This repository is my notes while learning Apache Lucene.
