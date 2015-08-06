@@ -86,6 +86,9 @@
 ①首先判断哪些Term对文档之间的关系最重要  
 ②再判断这些词的关系  
 
+搜索及查询索引流程图：  
+![image](img/创建索引、查询索引.png)
+
 ---
 ### 计算权重*Term Weight* 
 
@@ -102,7 +105,8 @@ tf\_{t,d} &= \text{frequency of term $$$t$$$ in document $$$d$$$}\\\
 n &= \text{total number of documents}\\\
 df_t &= \text{the number of documents that contain term $$$t$$$} \end{aligned}\\]
 
-### 判断Term之间的关系，VSM(Vector Space Model，向量空间模型)算法
+### 给Document打分，VSM算法
+**(VSM, Vector Space Model，向量空间模型)**
 
 我们把文档看做一系列词，由于每个词有一个权重*Term Weight*，一篇文档就有一个权重向量。
 
@@ -116,4 +120,6 @@ df_t &= \text{the number of documents that contain term $$$t$$$} \end{aligned}\\
 
 \\[ score(q,d)=\frac{\mathbf{V}\_1 \cdot \mathbf{V}\_2}{\lvert\mathbf{V}\_1\rvert\lvert\mathbf{V}\_2\rvert}\\]
 
+
+2015年8月5日  
 ©copyright 慕瑜
