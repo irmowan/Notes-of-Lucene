@@ -36,6 +36,18 @@
 4. QueryParser调用parser进行语法分析，生成查询语法树，返回一个Query.
 5. IndexSearcher调用search对查询语法树Query进行检索，返回结果.
 
+
+*常用的Java包*
+
+* *org.apache.lucene.analysis*	词法分析，语言处理相关，Analyzer, TokenStream.
+* *org.apache.lucene.document*	文档相关，Field.
+* *org.apache.lucene.index*		索引相关，IndexWriter, IndexReader.
+* *org.apache.lucene.search*	搜索相关，IndexSearcher.
+* *org.apache.lucene.store*		索引存储相关，IndexInput, IndexOutput, RAMDictionary.
+
+
+*使用说明*
+
 > To use Lucene, an application should:  
 > 1. Create Documents by adding Fields;  
 > 2. Create an IndexWriter and add documents to it with addDocument();  
@@ -77,4 +89,14 @@
     ireader.close();
     directory.close();
     
-   ```
+```
+   
+   
+ [IndexFiles.java](http://lucene.apache.org/core/5_2_0/demo/src-html/org/apache/lucene/demo/IndexFiles.html) creates an index for all the files contained in a directory.
+ 
+ [SearchFiles.java](http://lucene.apache.org/core/5_2_0/demo/src-html/org/apache/lucene/demo/SearchFiles.html) prompts for queries and searches an index.
+
+
+<br />
+2015年8月6日  
+©copyright 慕瑜
