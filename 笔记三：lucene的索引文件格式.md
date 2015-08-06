@@ -1,7 +1,7 @@
 #笔记三：Lucene的索引文件格式
 ### 基本概念
 
->参考[Lucene 5.0 File Format](http://lucene.apache.org/core/5_2_0/core/org/apache/lucene/codecs/lucene50/package-summary.html)，不同版本的文件格式有一定差异。
+>参考[Lucene 5.0 File Format](http://lucene.apache.org/core/5_2_1/core/org/apache/lucene/codecs/lucene50/package-summary.html)，不同版本的文件格式有一定差异。
 
 **术语层次：**
 
@@ -13,7 +13,7 @@
 
 **每个Segment索引包含了下列信息：[^structure]**
 
-[^structure]:[*Index Structure Overview*](http://lucene.apache.org/core/5_2_0/core/org/apache/lucene/codecs/lucene50/package-summary.html#Overview)
+[^structure]:[*Index Structure Overview*](http://lucene.apache.org/core/5_2_1/core/org/apache/lucene/codecs/lucene50/package-summary.html#Overview)
 
 * 段信息 *Segment info*
 * 域名称 *Field names*
@@ -32,7 +32,7 @@
 * 一个Index中的所有Segment在同一目录下。  
 * 文档名依照数字顺序排列，从0开始。
 
-[^Extensions]:[*Summary of File Extensions*](http://lucene.apache.org/core/5_2_0/core/org/apache/lucene/codecs/lucene50/package-summary.html#file-names)
+[^Extensions]:[*Summary of File Extensions*](http://lucene.apache.org/core/5_2_1/core/org/apache/lucene/codecs/lucene50/package-summary.html#file-names)
 
 ### 编码技巧
 

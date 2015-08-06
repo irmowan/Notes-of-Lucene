@@ -54,7 +54,7 @@
 > 3. Call QueryParser.parse() to build a query from a string;    
 > 4. Create an IndexSearcher and pass the query to its search() method.  
 
-**样例代码**([Lucene 5.2.0 官方文档](http://lucene.apache.org/core/5_2_0/core/index.html))：
+**样例代码**([Lucene 5.2.1 官方文档](http://lucene.apache.org/core/5_2_1/core/index.html))：
 
 
 ```
@@ -92,9 +92,9 @@
 ```
    
    
- [IndexFiles.java](http://lucene.apache.org/core/5_2_0/demo/src-html/org/apache/lucene/demo/IndexFiles.html) creates an index for all the files contained in a directory.
+ [IndexFiles.java](http://lucene.apache.org/core/5_2_1/demo/src-html/org/apache/lucene/demo/IndexFiles.html) creates an index for all the files contained in a directory.
  
- [SearchFiles.java](http://lucene.apache.org/core/5_2_0/demo/src-html/org/apache/lucene/demo/SearchFiles.html) prompts for queries and searches an index.
+ [SearchFiles.java](http://lucene.apache.org/core/5_2_1/demo/src-html/org/apache/lucene/demo/SearchFiles.html) prompts for queries and searches an index.
 
 
 <br />
