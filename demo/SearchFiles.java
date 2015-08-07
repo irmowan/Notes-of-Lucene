@@ -54,6 +54,9 @@ public class SearchFiles {
 			} else if ("-query".equals(args[i])) {
 				queryString = args[i + 1];
 				++i;
+			} else if ("repeat".equals(args[i])) {
+				repeat = Integer.parseInt(args[i + 1]);
+				++i;
 			} else if ("-raw".equals(args[i])) {
 				raw = true;
 			} else if ("-paging".equals(args[i])) {
