@@ -126,7 +126,7 @@ public class SearchFiles {
 		while (true) {
 			if (end > hits.length) {
 				System.out.println("Only result 1 - " + hits.length + " of " + numTotalHits
-						+ " total mathcing documents collected.");
+						+ " total matching documents collected.");
 				System.out.println("Collect more (y/n) ?");
 				String line = in.readLine();
 				if (line.length() == 0 || line.charAt(0) == 'n') {
